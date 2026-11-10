@@ -1,0 +1,47 @@
+{
+ "run": "A_yolov8n_pretrained_val",
+ "split": "val",
+ "n_images": 797,
+ "imgsz": 640,
+ "conf_eval": 0.001,
+ "mapping": "person->pemain, sports ball->bola, wasit: tidak tersedia",
+ "metrics": {
+  "pemain": {
+   "precision": 0.6168334273516327,
+   "recall": 0.6903925949569103,
+   "ap50": 0.63846022189612,
+   "ap50_95": 0.28316264918267436,
+   "n_gt": 3133
+  },
+  "bola": {
+   "precision": 0.6814190984516112,
+   "recall": 0.3108728943338438,
+   "ap50": 0.38141656201421825,
+   "ap50_95": 0.13120313632943448,
+   "n_gt": 653
+  },
+  "wasit": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "ap50": 0.0,
+   "ap50_95": 0.0,
+   "n_gt": 351
+  },
+  "_mean": {
+   "ap50": 0.33995892797011273,
+   "ap50_95": 0.1381219285040363,
+   "n_classes": 3
+  }
+ },
+ "speed_gpu": {
+  "median_ms": 14.200599998730468,
+  "p95_ms": 17.13121999964642,
+  "n": 100
+ },
+ "speed_cpu": {
+  "median_ms": 47.43205000340822,
+  "p95_ms": 52.618499992604484,
+  "n": 40
+ },
+ "referee_available": false
+}

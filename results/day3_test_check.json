@@ -1,0 +1,19 @@
+{
+ "n_test_before": 2425,
+ "excluded_pHash_le4": 137,
+ "le8": 195,
+ "exact": 100,
+ "same_filename_as_trainval": 0,
+ "n_test_after": 2288,
+ "empty": 638,
+ "min_side_ge640": 1189,
+ "player": 14666,
+ "ball": 706,
+ "referee": 1527,
+ "excluded_by_source": {
+  "v12": 74,
+  "v12_sahi_320": 1,
+  "v12_sahi_640": 4,
+  "v5_temp": 58
+ }
+}

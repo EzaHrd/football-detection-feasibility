@@ -1,0 +1,29 @@
+[
+ {
+  "device": "cpu",
+  "ms_per_img_avg10": 62.8
+ },
+ {
+  "device": "0",
+  "ms_per_img_avg10": 43.6
+ },
+ {
+  "img": "football_detection\\results\\smoke_test\\bus.jpg",
+  "detections": [
+   "bus",
+   "person",
+   "person",
+   "person",
+   "person",
+   "stop sign"
+  ]
+ },
+ {
+  "img": "football_detection\\results\\smoke_test\\zidane.jpg",
+  "detections": [
+   "person",
+   "person",
+   "tie"
+  ]
+ }
+]

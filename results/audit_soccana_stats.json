@@ -1,0 +1,57 @@
+{
+ "train": {
+  "n_images": 8677,
+  "n_label_files": 8677,
+  "empty_labels": 2460,
+  "boxes_by_class": {
+   "0": 43438,
+   "2": 4234,
+   "1": 2863
+  },
+  "sizes_sampled_every50": {
+   "640x640": 59,
+   "160x160": 33,
+   "1280x1280": 4,
+   "320x320": 58,
+   "1080x1080": 8,
+   "1920x1080": 7,
+   "640x360": 3,
+   "1280x720": 2
+  },
+  "example_names": [
+   "spt_v2_0.jpg",
+   "spt_v2_1.jpg",
+   "spt_v2_10.jpg",
+   "v3_sahi_320_4338.jpg",
+   "v3_sahi_320_4339.jpg",
+   "v3_sahi_320_4340.jpg"
+  ],
+  "ball_box_area_median": 0.00041015
+ },
+ "test": {
+  "n_images": 2996,
+  "n_label_files": 2996,
+  "empty_labels": 1041,
+  "boxes_by_class": {
+   "2": 1123,
+   "0": 12334,
+   "1": 737
+  },
+  "sizes_sampled_every50": {
+   "640x640": 17,
+   "160x160": 12,
+   "320x320": 25,
+   "1080x1080": 2,
+   "1920x1080": 4
+  },
+  "example_names": [
+   "spt_v2_0.jpg",
+   "spt_v2_1.jpg",
+   "spt_v2_2.jpg",
+   "v3_sahi_320_1498.jpg",
+   "v3_sahi_320_1499.jpg",
+   "v3_sahi_320_1500.jpg"
+  ],
+  "ball_box_area_median": 0.00039672349199999996
+ }
+}

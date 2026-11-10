@@ -1,0 +1,246 @@
+{
+ "run": "B_yolov8n_e25_val",
+ "conf": 0.25,
+ "n_val": 797,
+ "total_errors": 1616,
+ "counts": {
+  "bola_tidak_terdeteksi": 166,
+  "latar_jadi_bola": 77,
+  "latar_jadi_pemain": 623,
+  "lokalisasi_buruk_pemain": 464,
+  "lokalisasi_buruk_wasit": 53,
+  "pemain_ganda": 63,
+  "latar_jadi_wasit": 23,
+  "pemain_tidak_terdeteksi": 42,
+  "salah_kelas_wasit_jadi_pemain": 50,
+  "salah_kelas_pemain_jadi_wasit": 11,
+  "salah_kelas_bola_jadi_pemain": 7,
+  "salah_kelas_pemain_jadi_bola": 2,
+  "wasit_tidak_terdeteksi": 9,
+  "lokalisasi_buruk_bola": 24,
+  "wasit_ganda": 2
+ },
+ "n_sampled": 44,
+ "sample": [
+  {
+   "tipe": "bola_tidak_terdeteksi",
+   "img": "tbd_v2_52.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "bola_tidak_terdeteksi",
+   "img": "tbd_v2_201.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "bola_tidak_terdeteksi",
+   "img": "tbd_v2_115.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "bola_tidak_terdeteksi",
+   "img": "tbd_v2_446.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "latar_jadi_bola",
+   "img": "tbd_v2_457.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_bola",
+   "img": "tbd_v2_425.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_281.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_225.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_814.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_203.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_861.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_662.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_142.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_142.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_211.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_385.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_420.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_760.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_869.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_138.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_pemain",
+   "img": "tbd_v2_833.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_267.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_694.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_641.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_684.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_557.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_444.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_278.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_472.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_587.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_336.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "lokalisasi_buruk_pemain",
+   "img": "tbd_v2_810.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "lokalisasi_buruk_wasit",
+   "img": "tbd_v2_103.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "pemain_ganda",
+   "img": "tbd_v2_718.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "pemain_ganda",
+   "img": "tbd_v2_739.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "latar_jadi_wasit",
+   "img": "tbd_v2_194.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "pemain_tidak_terdeteksi",
+   "img": "tbd_v2_436.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "salah_kelas_wasit_jadi_pemain",
+   "img": "tbd_v2_401.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "salah_kelas_pemain_jadi_wasit",
+   "img": "tbd_v2_422.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "salah_kelas_bola_jadi_pemain",
+   "img": "tbd_v2_203.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "salah_kelas_pemain_jadi_bola",
+   "img": "tbd_v2_197.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "wasit_tidak_terdeteksi",
+   "img": "tbd_v2_543.jpg",
+   "asal": "gt"
+  },
+  {
+   "tipe": "lokalisasi_buruk_bola",
+   "img": "tbd_v2_313.jpg",
+   "asal": "pred"
+  },
+  {
+   "tipe": "wasit_ganda",
+   "img": "tbd_v2_372.jpg",
+   "asal": "pred"
+  }
+ ]
+}

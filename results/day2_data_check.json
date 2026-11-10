@@ -1,0 +1,26 @@
+{
+ "stats": {
+  "train": {
+   "images": 8451,
+   "empty": 2862,
+   "player": 35673,
+   "ball": 2133,
+   "referee": 3244,
+   "img_with_ball": 2129,
+   "img_with_ref": 2297
+  },
+  "val": {
+   "images": 797,
+   "empty": 0,
+   "player": 3133,
+   "ball": 653,
+   "referee": 351,
+   "img_with_ball": 653,
+   "img_with_ref": 294
+  }
+ },
+ "val_vs_train_le4": 0,
+ "le8": 3,
+ "exact": 0,
+ "same_name": 0
+}

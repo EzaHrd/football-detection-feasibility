@@ -1,0 +1,5 @@
+{
+ "resumed": true,
+ "workers_after_resume": 2,
+ "resume_segment_seconds": 1870.8
+}

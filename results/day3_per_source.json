@@ -1,0 +1,98 @@
+{
+ "metrics_per_source": {
+  "A_v12": {
+   "n_images": 1646,
+   "map50": 0.33040473011886223,
+   "pemain_ap50": 0.5359792890865,
+   "pemain_precision": 0.700882289649236,
+   "pemain_recall": 0.4566101219683163,
+   "pemain_n_gt": 7133,
+   "bola_ap50": 0.12483017115122438,
+   "bola_precision": 0.425,
+   "bola_recall": 0.12927756653992395,
+   "bola_n_gt": 263,
+   "wasit_ap50": null,
+   "wasit_precision": null,
+   "wasit_recall": null,
+   "wasit_n_gt": 771
+  },
+  "A_v5_temp": {
+   "n_images": 642,
+   "map50": 0.16235008831505587,
+   "pemain_ap50": 0.26811444199220114,
+   "pemain_precision": 0.6357984293193717,
+   "pemain_recall": 0.2579317668923404,
+   "pemain_n_gt": 7533,
+   "bola_ap50": 0.05658573463791064,
+   "bola_precision": 0.2818181818181818,
+   "bola_recall": 0.06997742663656885,
+   "bola_n_gt": 443,
+   "wasit_ap50": null,
+   "wasit_precision": null,
+   "wasit_recall": null,
+   "wasit_n_gt": 756
+  },
+  "B_v12": {
+   "n_images": 1646,
+   "map50": 0.7117887756972129,
+   "pemain_ap50": 0.9742528089361178,
+   "pemain_precision": 0.9712890335947906,
+   "pemain_recall": 0.92008972381887,
+   "pemain_n_gt": 7133,
+   "bola_ap50": 0.42098633109648725,
+   "bola_precision": 0.6942675159235668,
+   "bola_recall": 0.4144486692015209,
+   "bola_n_gt": 263,
+   "wasit_ap50": 0.7401271870590338,
+   "wasit_precision": 0.8110944527736131,
+   "wasit_recall": 0.7016861219195849,
+   "wasit_n_gt": 771
+  },
+  "B_v5_temp": {
+   "n_images": 642,
+   "map50": 0.3662266098320413,
+   "pemain_ap50": 0.5501485343943507,
+   "pemain_precision": 0.816160650251016,
+   "pemain_recall": 0.4532058940661091,
+   "pemain_n_gt": 7533,
+   "bola_ap50": 0.19760445708724234,
+   "bola_precision": 0.4034334763948498,
+   "bola_recall": 0.21218961625282168,
+   "bola_n_gt": 443,
+   "wasit_ap50": 0.3509268380145309,
+   "wasit_precision": 0.7142857142857143,
+   "wasit_recall": 0.35714285714285715,
+   "wasit_n_gt": 756
+  }
+ },
+ "wide_player_boxes": {
+  "spt_v2": {
+   "frac": 0.015384615384615385,
+   "n": 1040
+  },
+  "tbd_v2": {
+   "frac": 0.006064474944142994,
+   "n": 3133
+  },
+  "v12": {
+   "frac": 0.013446730260889554,
+   "n": 8701
+  },
+  "v2_temp": {
+   "frac": 0.027230432402846196,
+   "n": 7308
+  },
+  "v3": {
+   "frac": 0.025153866738025155,
+   "n": 14948
+  },
+  "v5_temp": {
+   "frac": 0.34349667271627343,
+   "n": 8265
+  },
+  "v7": {
+   "frac": 0.033287549486951604,
+   "n": 12377
+  }
+ }
+}

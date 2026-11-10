@@ -1,0 +1,35 @@
+{
+ "train": {
+  "n": 114,
+  "boxes": {
+   "player": 1234,
+   "referee": 68,
+   "football": 100
+  },
+  "sizes": {
+   "640x640": 114
+  }
+ },
+ "validation": {
+  "n": 16,
+  "boxes": {
+   "player": 173,
+   "referee": 8,
+   "football": 13
+  },
+  "sizes": {
+   "640x640": 16
+  }
+ },
+ "test": {
+  "n": 33,
+  "boxes": {
+   "player": 359,
+   "referee": 20,
+   "football": 28
+  },
+  "sizes": {
+   "640x640": 33
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "kriteria": [
+  {
+   "no": 1,
+   "kriteria": "AP50 pemain (test)",
+   "nilai": 0.7702,
+   "ambang": ">= 0.7",
+   "lulus": true,
+   "inti": true
+  },
+  {
+   "no": 2,
+   "kriteria": "AP50 wasit (test)",
+   "nilai": 0.5434,
+   "ambang": ">= 0.5",
+   "lulus": true,
+   "inti": true
+  },
+  {
+   "no": 3,
+   "kriteria": "Recall bola (test, conf beku)",
+   "nilai": 0.2875,
+   "ambang": ">= 0.5",
+   "lulus": false,
+   "inti": true
+  },
+  {
+   "no": 4,
+   "kriteria": "Precision bola (test, conf beku)",
+   "nilai": 0.5205,
+   "ambang": ">= 0.7",
+   "lulus": false,
+   "inti": true
+  },
+  {
+   "no": 5,
+   "kriteria": "mAP50 3 kelas (RF100)",
+   "nilai": 0.5947,
+   "ambang": ">= 0.5",
+   "lulus": true,
+   "inti": true
+  },
+  {
+   "no": "6a",
+   "kriteria": "Turun relatif mAP50, blur sigma=2",
+   "nilai": 0.0713,
+   "ambang": "<= 0.25",
+   "lulus": true,
+   "inti": false
+  },
+  {
+   "no": "6b",
+   "kriteria": "Turun relatif mAP50, resolusi x0.5",
+   "nilai": -0.0135,
+   "ambang": "<= 0.25",
+   "lulus": true,
+   "inti": false
+  },
+  {
+   "no": "6c",
+   "kriteria": "Turun relatif mAP50, kecerahan +-30% (terburuk)",
+   "nilai": 0.0127,
+   "ambang": "<= 0.15",
+   "lulus": true,
+   "inti": false
+  },
+  {
+   "no": "7a",
+   "kriteria": "ms/frame GPU median (test)",
+   "nilai": 22.3397,
+   "ambang": "<= 50",
+   "lulus": true,
+   "inti": false
+  },
+  {
+   "no": "7b",
+   "kriteria": "ms/frame CPU median (test)",
+   "nilai": 59.3347,
+   "ambang": "<= 200",
+   "lulus": true,
+   "inti": false
+  },
+  {
+   "no": "8a",
+   "kriteria": "Kenaikan AP50 pemain B-A (test)",
+   "nilai": 0.3764,
+   "ambang": ">= 0.1",
+   "lulus": true,
+   "inti": true
+  },
+  {
+   "no": "8b",
+   "kriteria": "Kenaikan AP50 bola B-A (test)",
+   "nilai": 0.1883,
+   "ambang": ">= 0.1",
+   "lulus": true,
+   "inti": true
+  }
+ ],
+ "kelayakan_terbukti": false,
+ "aturan": "terbukti jika kriteria inti (1-5, 8) semua lulus; 6-7 dilaporkan sebagai risiko"
+}

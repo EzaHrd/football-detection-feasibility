@@ -1,0 +1,66 @@
+{
+ "created": "2026-11-10",
+ "note": "dibekukan dari val/train sebelum test disentuh",
+ "imgsz": 640,
+ "nms_iou": 0.6,
+ "eval_conf": 0.001,
+ "match_iou": 0.5,
+ "weights_B": "football_detection/results/train/B_yolov8n_e25_s42_b8/weights/best.pt",
+ "sha256_B": "a189bcdb3fd729dd2885b1f7e494bd084c3013b304eb4b221a4218f5f4d8a542",
+ "weights_A": "football_detection/results/smoke_test/yolov8n.pt",
+ "sha256_A": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+ "class_map_A": {
+  "person(0)": "pemain",
+  "sports ball(32)": "bola",
+  "wasit": "tidak tersedia"
+ },
+ "op_conf_A": {
+  "pemain": 0.3383383383383383,
+  "bola": 0.14614614614614616,
+  "wasit": null
+ },
+ "op_conf_B": {
+  "pemain": 0.4724724724724725,
+  "bola": 0.23423423423423423,
+  "wasit": 0.2802802802802803
+ },
+ "ball_size_threshold_norm_area": 0.0003614865,
+ "ball_size_threshold_source": "median 2133 bola train",
+ "subset_min_side_px": 640,
+ "robustness": {
+  "gauss_sigma": [
+   1,
+   2,
+   3
+  ],
+  "motion_kernel": [
+   7,
+   15
+  ],
+  "down_up": [
+   0.5,
+   0.25
+  ],
+  "brightness": [
+   -0.3,
+   0.3
+  ],
+  "contrast": [
+   0.6,
+   1.4
+  ],
+  "jpeg_quality": [
+   30,
+   10
+  ],
+  "gauss_noise_sigma": [
+   10,
+   25
+  ],
+  "judged": {
+   "blur": "gauss_sigma=2",
+   "resolution": "down_up=0.5",
+   "light": "brightness=+-0.3 (terburuk dari keduanya)"
+  }
+ }
+}
