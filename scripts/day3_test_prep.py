@@ -1,4 +1,4 @@
-"""T2: buat daftar test internal, cek kebocoran pHash test vs train+val SEBELUM inferensi. Gambar test dengan jarak <= 4 dikeluarkan."""
+"""T2: build the internal test list and check pHash leakage of test vs train+val BEFORE any inference. Test images with distance <= 4 are excluded."""
 import csv, pathlib, collections, json, numpy as np, imagehash
 from PIL import Image
 

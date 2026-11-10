@@ -1,4 +1,4 @@
-"""Latih YOLO pada train, validasi HANYA pada val. Pemakaian: train.py NAMA_RUN BOBOT_AWAL EPOCH IMGSZ BATCH"""
+"""Train YOLO on the train split, validate ONLY on val. Usage: train.py RUN_NAME INIT_WEIGHTS EPOCHS IMGSZ BATCH"""
 import sys, time, json, pathlib
 from ultralytics import YOLO
 
@@ -6,7 +6,7 @@ from ultralytics import YOLO
 def main():
     name, w0, epochs, imgsz, batch = sys.argv[1], sys.argv[2], int(sys.argv[3]), int(sys.argv[4]), int(sys.argv[5])
     project = pathlib.Path("football_detection/results/train").resolve()
-    assert not (project / name).exists(), "nama run sudah ada; pilih nama unik"
+    assert not (project / name).exists(), "run name already exists; choose a unique name"
     cfg = dict(data=str(pathlib.Path("football_detection/data/work/splits/data_day2.yaml").resolve()), epochs=epochs, imgsz=imgsz,
                batch=batch, seed=42, deterministic=True, workers=4, device=0, project=str(project), name=name, exist_ok=False,
                patience=100, plots=True, cache=False)

@@ -30,15 +30,15 @@ def read_gt(img):
 
 
 def _pairs(gb, gc, pb, pc, t):
-    """Pencocokan greedy berbasis IoU (gaya Ultralytics). Kembalikan array [gt_idx, pred_idx]."""
+    """Greedy IoU matching (Ultralytics style). Returns an array of [gt_idx, pred_idx]."""
     if len(pb) == 0 or len(gb) == 0: return np.zeros((0, 2), int)
     iou = box_iou(torch.tensor(gb, dtype=torch.float32), torch.tensor(pb, dtype=torch.float32)).numpy()
     iou = iou * (gc[:, None] == pc[None, :])
     m = np.array(np.nonzero(iou >= t)).T
     if not len(m): return np.zeros((0, 2), int)
     m = m[np.argsort(-iou[m[:, 0], m[:, 1]])]
-    m = m[np.unique(m[:, 1], return_index=True)[1]]  # urut per indeks prediksi = conf tertinggi dulu
-    m = m[np.unique(m[:, 0], return_index=True)[1]]  # per GT: prediksi conf tertinggi (sama dengan Ultralytics / Hari 2)
+    m = m[np.unique(m[:, 1], return_index=True)[1]]  # one match per prediction (predictions are sorted by confidence)
+    m = m[np.unique(m[:, 0], return_index=True)[1]]  # one match per ground truth (same behaviour as Ultralytics)
     return m.astype(int)
 
 
@@ -74,7 +74,7 @@ def _cat(per):
 
 
 def metrics(per, op_conf=None, classes_expected=(0, 1, 2)):
-    """AP per kelas (conf 0,001), conf F1-optimal per kelas, dan P/R pada op_conf {kelas: ambang} jika diberikan."""
+    """Per-class AP (conf 0.001), per-class F1-optimal confidence, and P/R at op_conf {class: threshold} if given."""
     tp, conf, pc, tc = _cat(per)
     out = ap_per_class(tp, conf, pc, tc, plot=False)
     ap, uc, f1c, x = out[5], out[6], out[9], out[10]
